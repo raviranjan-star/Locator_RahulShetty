@@ -1,25 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T18:15:00 IST" name="Default suite" finished-at="2025-01-25T18:15:10 IST" duration-ms="9839">
+  <suite started-at="2025-01-25T19:12:20 IST" name="Suite" finished-at="2025-01-25T19:12:42 IST" duration-ms="21213">
     <groups>
     </groups>
-    <test started-at="2025-01-25T18:15:00 IST" name="Default test" finished-at="2025-01-25T18:15:10 IST" duration-ms="9839">
+    <test started-at="2025-01-25T19:12:20 IST" name="Test1" finished-at="2025-01-25T19:12:40 IST" duration-ms="19306">
       <class name="testCases.TC001_Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_Login@6e20b53a]" started-at="2025-01-25T18:15:00 IST" name="setup" finished-at="2025-01-25T18:15:04 IST" duration-ms="3677" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Login@7c729a55]" started-at="2025-01-25T19:12:20 IST" name="setup" finished-at="2025-01-25T19:12:26 IST" duration-ms="5924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AccountLogin()[pri:0, instance:testCases.TC001_Login@6e20b53a]" started-at="2025-01-25T18:15:04 IST" name="AccountLogin" finished-at="2025-01-25T18:15:10 IST" duration-ms="5869" status="PASS">
+        <test-method signature="AccountLogin()[pri:0, instance:testCases.TC001_Login@7c729a55]" started-at="2025-01-25T19:12:26 IST" name="AccountLogin" finished-at="2025-01-25T19:12:39 IST" duration-ms="12160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_Login@6e20b53a]" started-at="2025-01-25T18:15:10 IST" name="tearDown" finished-at="2025-01-25T18:15:10 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_Login@7c729a55]" started-at="2025-01-25T19:12:39 IST" name="tearDown" finished-at="2025-01-25T19:12:40 IST" duration-ms="1114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-01-25T19:12:20 IST" name="Test2" finished-at="2025-01-25T19:12:41 IST" duration-ms="20461">
+      <class name="testCases.TC001_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Login@436813f3]" started-at="2025-01-25T19:12:20 IST" name="setup" finished-at="2025-01-25T19:12:28 IST" duration-ms="7965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AccountLogin()[pri:0, instance:testCases.TC001_Login@436813f3]" started-at="2025-01-25T19:12:28 IST" name="AccountLogin" finished-at="2025-01-25T19:12:39 IST" duration-ms="10703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_Login@436813f3]" started-at="2025-01-25T19:12:39 IST" name="tearDown" finished-at="2025-01-25T19:12:41 IST" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_Login -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-01-25T19:12:20 IST" name="Test3" finished-at="2025-01-25T19:12:42 IST" duration-ms="21213">
+      <class name="testCases.TC001_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Login@158d2680]" started-at="2025-01-25T19:12:20 IST" name="setup" finished-at="2025-01-25T19:12:32 IST" duration-ms="11436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AccountLogin()[pri:0, instance:testCases.TC001_Login@158d2680]" started-at="2025-01-25T19:12:32 IST" name="AccountLogin" finished-at="2025-01-25T19:12:40 IST" duration-ms="8402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_Login@158d2680]" started-at="2025-01-25T19:12:40 IST" name="tearDown" finished-at="2025-01-25T19:12:42 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_Login -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>

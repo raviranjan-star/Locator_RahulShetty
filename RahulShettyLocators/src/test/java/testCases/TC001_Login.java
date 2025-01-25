@@ -1,4 +1,6 @@
 package testCases;
+import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
@@ -32,6 +34,9 @@ public class TC001_Login extends BaseClass{
 			hp.clickchkPrivacy();
 			hp.clickbtnSignIn();
 		}
+		//System.out.println(hp.msgrec());
+		Assert.assertEquals(p.getProperty("username"),hp.msgrec() );
+		hp.logOut();
 	}
 
 }

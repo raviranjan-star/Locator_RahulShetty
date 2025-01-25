@@ -26,7 +26,9 @@ public class HomePage extends BasePage{
 		@FindBy(xpath="//button[normalize-space()='Reset Login']") WebElement btnResetLogin;
 		@FindBy(xpath="//button[normalize-space()='Go to Login']") WebElement btnGoToLogin;
 		@FindBy(xpath="//p[@class='infoMsg']") WebElement msgTemporaryPassword;
-	
+		@FindBy(xpath="//h2[contains(text(), 'Hello')]") WebElement msgreceved;
+		@FindBy(xpath="//h2[contains(text(), 'Hello')]") WebElement logout;
+		
 		//methods
 		public void enterUserName(String name)
 		{
@@ -84,5 +86,14 @@ public class HomePage extends BasePage{
 		public void clickbtnGoToLogin()
 		{
 			btnGoToLogin.click();
+		}
+		public String msgrec()
+		{
+			String name =msgreceved.getText().substring(6).replace(",", "");
+			return name;
+		}
+		public void logOut()
+		{
+			logout.click();
 		}
 }
